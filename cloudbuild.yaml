@@ -6,7 +6,7 @@ steps:
   #  args: ['build', '--tag=gcr.io/$PROJECT_ID/git', '.']
   - name: 'gcr.io/cloud-builders/git' # public
     #- name: gcr.io/$PROJECT_ID/git # if you use customized git docker version
-    args: ['clone', 'https://github.com/JiyougLee/ruby-simple-web-pub.git', '.']
+    args: ['clone', 'https://github.com/JiyougLee/ruby-simple-web-pub.git']
   #  volumes:
   #  - name: 'workspace'
   #    path: '~/workspace'
